@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-16T10:08:52Z" name="Default suite" finished-at="2021-04-16T10:08:55Z" duration-ms="2641">
+    <groups>
+    </groups>
+    <test started-at="2021-04-16T10:08:52Z" name="Default test" finished-at="2021-04-16T10:08:55Z" duration-ms="2641">
+      <class name="test.caesar.funtionaltests.TestCaesarHomePage">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e]" started-at="2021-04-16T15:38:52Z" name="beforeSuite" finished-at="2021-04-16T15:38:52Z" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@721eb7df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "Default test" verbose:2[parameters:][metagroups:] [included: ][excluded: ]  classes: packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e]" started-at="2021-04-16T15:38:52Z" name="beforeTest" finished-at="2021-04-16T15:38:52Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@721eb7df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e]" started-at="2021-04-16T15:38:52Z" name="beforeMethod" finished-at="2021-04-16T15:38:54Z" duration-ms="1844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@721eb7df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.caesar.funtionaltests.TestCaesarHomePage.validateLoginPage(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateLoginPage(java.util.Hashtable)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e]" started-at="2021-04-16T15:38:54Z" name="validateLoginPage" data-provider="getDataFromExcel" finished-at="2021-04-16T15:38:54Z" duration-ms="9" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{missingClient_isEditable=No, search_isEditable=No, Password=Fareed123, UserName=fareed.sse@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at aut.caesar.page.CaesarLoginPage.login(CaesarLoginPage.java:27)
+	at test.caesar.funtionaltests.TestCaesarHomePage.validateLoginPage(TestCaesarHomePage.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e]" started-at="2021-04-16T15:38:54Z" name="afterMethod" finished-at="2021-04-16T15:38:55Z" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@721eb7df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=validateLoginPage status=FAILURE method=TestCaesarHomePage.validateLoginPage(java.util.Hashtable)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e] output={null}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void test.caesar.funtionaltests.TestCaesarHomePage.validateLoginPage(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:test.caesar.funtionaltests.TestCaesarHomePage@3b96c42e]" started-at="2021-04-16T15:38:55Z" name="afterTest" finished-at="2021-04-16T15:38:55Z" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@721eb7df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.caesar.funtionaltests.TestCaesarHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

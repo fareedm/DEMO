@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestENV_SearchPerUserInParallel"
+           tests="5"
+           failures="4"
+           errors="0"
+           skipped="1"
+           time="0.132">
+  <properties />
+            <testcase name="afterMethod" time="0.028" classname="test.functionaltests.TestSearchPerUserInParallel">
+                <failure type="java.lang.Error"
+                  message="Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+"
+              >
+<![CDATA[java.lang.Error: Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+
+  com.testreport.ExtentReporter.takeScreenShot(ExtentReporter.java:296)
+  com.testreport.ExtentReporter.logFailure(ExtentReporter.java:165)
+  aut.pages.templates.PageTemplate.logout(PageTemplate.java:175)
+  test.templates.TestTemplate.afterMethod(TestTemplate.java:178)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+  java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="afterMethod" time="0.020" classname="test.functionaltests.TestSearchPerUserInParallel">
+                <failure type="java.lang.Error"
+                  message="Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+"
+              >
+<![CDATA[java.lang.Error: Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+
+  com.testreport.ExtentReporter.takeScreenShot(ExtentReporter.java:296)
+  com.testreport.ExtentReporter.logFailure(ExtentReporter.java:165)
+  aut.pages.templates.PageTemplate.logout(PageTemplate.java:175)
+  test.templates.TestTemplate.afterMethod(TestTemplate.java:178)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+  java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="validateAllSearches" time="0.038" classname="test.functionaltests.TestSearchPerUserInParallel">
+                <failure type="java.lang.Error"
+                  message="Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+"
+              >
+<![CDATA[java.lang.Error: Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+
+  com.testreport.ExtentReporter.takeScreenShot(ExtentReporter.java:296)
+  com.testreport.ExtentReporter.logException(ExtentReporter.java:237)
+  test.functionaltests.TestSearchPerUserInParallel.validateAllSearches(TestSearchPerUserInParallel.java:59)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+  java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="validateAllSearches" time="0.046" classname="test.functionaltests.TestSearchPerUserInParallel">
+                <failure type="java.lang.Error"
+                  message="Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+"
+              >
+<![CDATA[java.lang.Error: Unresolved compilation problem: 
+	TestTemplate cannot be resolved
+
+  com.testreport.ExtentReporter.takeScreenShot(ExtentReporter.java:296)
+  com.testreport.ExtentReporter.logException(ExtentReporter.java:237)
+  test.functionaltests.TestSearchPerUserInParallel.validateAllSearches(TestSearchPerUserInParallel.java:59)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+  org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+  java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="afterTest" time="0.0" classname="test.functionaltests.TestSearchPerUserInParallel">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

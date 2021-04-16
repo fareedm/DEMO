@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "JTAFTests" parallel = "tests" thread-count="5">
+	<listeners>
+		<listener class-name = "org.uncommons.reportng.HTMLReporter"/>	
+		<listener class-name = "org.uncommons.reportng.JUnitXMLReporter"/>			
+	</listeners>   
+	
+   <parameter name="Browser" value= "${browser}" />
+     <test name="TestENV_SearchPerUserInParallel">
+    	<parameter name="APPURL" value="https://www.caesars.com/"/>
+        <classes>       		
+       		<class name="test.functionaltests.TestCaesarHomePage" />       		     		
+        </classes>
+    </test>
+    <test name="DEVENV_SearchPerUserInParallel">
+    	<parameter name="APPURL" value="https://www.caesars.com/"/>
+        <classes>       		
+       		<class name="test.functionaltests.TestCaesarHomePage" />       		     		
+        </classes>
+    </test>
+   
+</suite>
+<!-- Suite -->

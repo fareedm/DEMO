@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [JTAFTests]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="${browser}"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test parallel="tests" name="DEVENV_SearchPerUserInParallel(failed)">
+    <parameter name="APPURL" value="https://chgdev.softco.com/softco/"/>
+    <classes>
+      <class name="test.functionaltests.TestSearchPerUserInParallel">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="validateAllSearches" invocation-numbers="1 0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.functionaltests.TestSearchPerUserInParallel -->
+    </classes>
+  </test> <!-- DEVENV_SearchPerUserInParallel(failed) -->
+  <test parallel="tests" name="TestENV_SearchPerUserInParallel(failed)">
+    <parameter name="APPURL" value="https://chgtest.softco.com/softco/"/>
+    <classes>
+      <class name="test.functionaltests.TestSearchPerUserInParallel">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="validateAllSearches" invocation-numbers="1 0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.functionaltests.TestSearchPerUserInParallel -->
+    </classes>
+  </test> <!-- TestENV_SearchPerUserInParallel(failed) -->
+</suite> <!-- Failed suite [JTAFTests] -->
